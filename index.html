@@ -71,7 +71,7 @@
                   </div>
 
                   <div class="is-size-5 publication-authors">
-                    <span class="author-block">Unviersity of Surrey, [1] Adobe Resarch [2]<br>arXiv abs/2307.04157, 2023</span>
+                    <span class="author-block">Unviersity of Surrey<sup>[1]</sup>, Adobe Resarch<sup>[2]</sup><br><a href="https://eccv2024.ecva.net/" target="_blank">The European Conference of Computer Vision 2024</a> <a href="https://visarts.eu/index.php" target="_blank">Vision for Art (VISART VII) Workshop</a></span>
                 
 
                     
@@ -92,17 +92,17 @@
                       </a>
                     </span>
 
-                    <!-- Supplementary PDF link -->
-<!--                  <span class="link-block">
-                      <a href="static/pdfs/supplementary_material.pdf" target="_blank"
+                    <!-- Presentation Slides PDF link -->
+                  <span class="link-block">
+                      <a href="static/pdfs/diffnst_pres.pdf" target="_blank"
                       class="external-link button is-normal is-rounded is-dark">
                       <span class="icon">
                         <i class="fas fa-file-pdf"></i>
                       </span>
-                      <span>Supplementary</span>
+                      <span>Slides</span>
                     </a>
                   </span>
--->  
+  
                   <!-- Github link -->
               <!--    <span class="link-block">
                     <a href="https://github.com/YOUR REPO HERE" target="_blank"
@@ -129,7 +129,7 @@
 <section class="hero teaser">
   <div class="container is-max-desktop">
     <div class="hero-body">
-      <img src="assets/diffnst_teaser.jpg">
+      <img src="assets/diggnst_teaserLarge.png">
       <h2 class="subtitle has-text-centered">
         Deformable style transfer using DIFF-NST, compared to baselines: NNST [13], CAST [41], NeAT [25], and PARASOL [31]. Our DIFF-NST method performs style transfer with much stronger style-based form alteration - matching the shapes and structures to those in the style image, not just the colors and textures.
       </h2>
@@ -170,6 +170,46 @@
 </section>
 <!-- End teaser video -->
 
+<!-- Figure3 Image-->
+<section class="hero teaser">
+  <div class="container is-max-desktop">
+    <div class="hero-body">
+      <img src="assets/diggnst_Fig3.png">
+      <h2 class="subtitle has-text-centered">
+        Visualization of style code ablation. The more disentangled ALADIN-NST embedding carries over less semantic information from the style images.
+      </h2>
+    </div>
+  </div>
+</section>
+<!-- Figure3 Image-->
+
+<!-- Figure4 Image-->
+<section class="hero teaser">
+  <div class="container is-max-desktop">
+    <div class="hero-body">
+      <img src="assets/diggnst_Fig4.png">
+      <h2 class="subtitle has-text-centered">
+        Controlling the style-based content deformation of the stylized image at inference time by varying the starting timestep to apply pre-extracted content noises from the content image inversion.
+      </h2>
+    </div>
+  </div>
+</section>
+<!-- Figure4 Image -->
+
+<!-- Figure6 Image-->
+<section class="hero teaser">
+  <div class="container is-max-desktop">
+    <div class="hero-body">
+      <img src="assets/diggnst_Fig6.png">
+      <h2 class="subtitle has-text-centered">
+        Deformable style transfer, comparing to NNST, CAST, NeAT, and PARASOL. All our figures are generated using images from the ALADIN-NST test set, which were not seen during training. More in the supplementary materials.
+      </h2>
+    </div>
+  </div>
+</section>
+<!-- Figure6 Image -->
+
+
 <!-- Paper poster -->
 <!--
   <section class="hero is-small is-light">
@@ -190,11 +230,11 @@
   <section class="section" id="BibTeX">
     <div class="container is-max-desktop content">
       <h2 class="title">BibTeX</h2>
-      <pre><code>@inproceedings{Ruta:arXiv2307.04157:2023,
+      <pre><code>@inproceedings{Ruta:diffnst:ECCVWS:2024,
         AUTHOR = Ruta, Dan and  Tarrés, Gemma C and Gilbert, Andrew and Shechtman, Eli and Kolkin, Nick and Collomosse, John",
         TITLE = "Diff-nst: Diffusion interleaving for deformable neural style transfer",
-        BOOKTITLE = "arXiv abs/2307.04157",
-        YEAR = "2023",
+        BOOKTITLE = "European Conference of Computer Vision 2024, Vision for Art (VISART VII) Workshop, 2024",
+        YEAR = "2024",
         ​}</code></pre>
     </div>
 </section>
